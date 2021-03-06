@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package filestructureproject;
+package com.example.filestructure.old;
 
-import filestructureproject.createfile.FileCreator;
+import com.example.filestructure.createfile.FileCreator;
+import org.springframework.stereotype.Component;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -18,6 +20,7 @@ import java.text.Normalizer;
  *
  * @author rodri
  */
+@Component
 public class FileManager {
 
     private FileCreator fileCreator;
